@@ -1,3 +1,25 @@
 h2 {
   text-align: center;
 }
+
+header {
+  background-image: url(../src/angelwithcatears.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.buttonLink {
+  display: block;
+  max-width: 200px;
+  color: #462cb3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 14px;
+  background-color: white;
+}
