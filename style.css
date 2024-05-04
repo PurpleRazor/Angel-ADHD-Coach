@@ -1,25 +1,39 @@
 h2 {
   text-align: center;
+  font-size: 40px;
 }
 
 header {
-  background-image: url(../src/angelwithcatears.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+  background-image: url(../src/blueandblacktexture.jpg);
+  color: whitesmoke;
   text-align: center;
   padding: 200px 0;
+  margin: 50px;
 }
 
-.buttonLink {
+main p {
+  margin: 15px;
+}
+
+.calendly-image {
   display: block;
-  max-width: 200px;
-  color: #462cb3;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
+  margin: 20px auto;
+}
+
+.by-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.by-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-image: url(../src/blueandblacktexture.jpg);
   text-align: center;
-  letter-spacing: 3px;
-  padding: 14px;
-  background-color: white;
+  color: whitesmoke;
+  margin: 50px;
+  padding: 20px;
+  opacity: 0.8;
 }
