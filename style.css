@@ -2,15 +2,23 @@
   --default-text-color: #3a4874;
   --default-background-color: white;
   --secondary-background-color: #f0f08e;
+  --heading-font: "open sans";
+  --paragraph-font: sans-serif;
+}
+
+h3 {
+  font-family: var(--heading-font);
 }
 
 h1 {
   font-style: italic;
+  font-family: var(--heading-font);
 }
 
 h2 {
   text-align: center;
   font-size: 30px;
+  font-family: var(--heading-font);
 }
 
 h2 .name {
@@ -25,6 +33,10 @@ header {
   padding: 200px 0;
   margin: 50px;
   border-radius: 40% 70% 40% 70%;
+}
+
+p {
+  font-family: var(--paragraph-font);
 }
 
 main {
