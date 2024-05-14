@@ -1,7 +1,7 @@
 :root {
-  --default-text-color: #3a4874;
+  --default-text-color: black;
   --default-background-color: white;
-  --secondary-background-color: #f0f08e;
+  --secondary-background-color: #e7a4ed;
   --heading-font: "open sans";
   --paragraph-font: sans-serif;
 }
@@ -25,9 +25,12 @@ h2 .name {
   font-size: 60px;
   font-weight: bolder;
 }
+.leaf {
+  height: 60px;
+}
 
 header {
-  background-image: linear-gradient(to bottom right, #91ca62, #3a4874);
+  background-image: linear-gradient(to bottom right, #91ca62, #2fadc9);
   color: whitesmoke;
   text-align: center;
   padding: 200px 0;
@@ -70,7 +73,7 @@ main .sub-heading {
 }
 
 footer {
-  background-image: linear-gradient(to bottom right, #91ca62, #3a4874);
+  background-image: linear-gradient(to bottom right, #91ca62, #2fadc9);
   text-align: center;
   color: whitesmoke;
   margin: 0px 15px 15px 15px;
