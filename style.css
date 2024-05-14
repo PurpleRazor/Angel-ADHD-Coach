@@ -25,8 +25,18 @@ h2 .name {
   font-size: 60px;
   font-weight: bolder;
 }
+
+.btn-outline-light {
+  margin-left: 15px;
+}
 .leaf {
-  height: 60px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.learn-more-box {
+  display: inline;
 }
 
 header {
