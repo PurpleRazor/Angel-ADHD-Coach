@@ -77,10 +77,6 @@ footer {
   color: #cfdee6;
 }
 
-.container {
-  display: grid;
-}
-
 .footer-grid {
   display: flex;
   justify-content: space-evenly;
