@@ -112,9 +112,9 @@ footer {
   color: #cfdee6;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.by-line {
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 @media (max-width: 960px) {
@@ -129,5 +129,9 @@ footer {
     text-align: center;
 
     border-radius: 10px;
+  }
+  .social-link-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
