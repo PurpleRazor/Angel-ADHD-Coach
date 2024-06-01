@@ -93,6 +93,17 @@ footer {
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
+.social-link-wrapper {
+  font-size: 40px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.social-link-wrapper a {
+  color: white;
+}
+
 .Contact-icon {
   text-align: center;
   font-size: 80px;
