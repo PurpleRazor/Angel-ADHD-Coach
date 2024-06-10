@@ -19,6 +19,7 @@ h2 {
   text-align: center;
   font-size: 30px;
   font-family: var(--heading-font);
+  font-style: italic;
 }
 
 h2 .name {
@@ -54,6 +55,7 @@ p {
 
 main {
   margin: 15px;
+  margin-bottom: 15px;
   color: var(--default-text-color);
   background-color: var(--secondary-background-color);
   border-radius: 10px;
@@ -110,6 +112,17 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #cfdee6;
+}
+
+.cards-section {
+  padding: 10px;
+  margin: 15px;
+  margin-top: 15px;
+  color: var(--default-text-color);
+  background-color: #8edff1;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .by-line {
