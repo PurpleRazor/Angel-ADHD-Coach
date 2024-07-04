@@ -58,8 +58,10 @@ main {
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
-main .sub-heading {
+.sub-heading {
   color: var(--default-text-color);
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 .calendly-image {
@@ -68,8 +70,11 @@ main .sub-heading {
   border-radius: 20px;
 }
 
-.testamonials {
+h2 .reveiws {
   text-align: center;
+  margin-top: 48px;
+}
+.reveiws {
   margin: 15px;
   margin-bottom: 15px;
   color: var(--default-text-color);
