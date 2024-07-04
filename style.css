@@ -1,7 +1,7 @@
 :root {
   --default-text-color: black;
   --default-background-color: white;
-  --secondary-background-color: #e7a4ed;
+  --secondary-background-color: rgb(252, 190, 73);
   --heading-font: "open sans";
   --paragraph-font: sans-serif;
 }
@@ -30,18 +30,13 @@ h2 .name {
 .btn-outline-light {
   margin-left: 15px;
 }
-.leaf {
-  height: 50px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
 
 .learn-more-box {
   display: inline;
 }
 
 header {
-  background-image: linear-gradient(to bottom right, #91ca62, #2fadc9);
+  background-image: linear-gradient(#91ca62, #2fadc9);
   color: whitesmoke;
   text-align: center;
   padding: 100px 0;
@@ -70,7 +65,18 @@ main .sub-heading {
 .calendly-image {
   display: block;
   margin: 30px auto;
-  border-radius: 40% 70% 40% 70%;
+  border-radius: 20px;
+}
+
+.testamonials {
+  text-align: center;
+  margin: 15px;
+  margin-bottom: 15px;
+  color: var(--default-text-color);
+  background-color: #baa1cf;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .by-link {
@@ -84,7 +90,7 @@ main .sub-heading {
 }
 
 footer {
-  background-image: linear-gradient(to bottom right, #91ca62, #2fadc9);
+  background-color: #2fadc9;
   text-align: center;
   color: whitesmoke;
   margin: 0px 15px 15px 15px;
@@ -119,7 +125,7 @@ footer {
   margin: 15px;
   margin-top: 15px;
   color: var(--default-text-color);
-  background-color: #8edff1;
+  background-image: linear-gradient(#2fadc9, #91ca62);
   border-radius: 10px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
@@ -132,7 +138,7 @@ footer {
 
 @media (max-width: 960px) {
   header {
-    background-color: linear-gradient(to bottom right, #764b62, #8ea17b);
+    background-image: linear-gradient(#91ca62, #2fadc9);
     padding: 100px 0;
     margin: 15px;
     border-radius: 10px;
