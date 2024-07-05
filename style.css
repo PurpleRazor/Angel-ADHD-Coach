@@ -82,11 +82,15 @@ main {
 }
 
 .speech-bubble {
-  max-width: 70%;
+  max-width: 100%;
   background-color: var(--secondary-background-color);
   padding: 15px;
   margin: 15px;
   border-radius: 10px;
+}
+
+p .right {
+  align-self: flex-end;
 }
 
 .by-link {
