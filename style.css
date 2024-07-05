@@ -96,8 +96,6 @@ main {
   position: relative;
 }
 
-/* speech bubble 13 */
-
 .sb13:before {
   content: "";
   width: 0px;
@@ -110,8 +108,6 @@ main {
   right: -16px;
   top: 0px;
 }
-
-/* speech bubble 14 */
 
 .sb14:before {
   content: "";
