@@ -70,18 +70,23 @@ main {
   border-radius: 20px;
 }
 
-h2 .reveiws {
-  text-align: center;
-  margin-top: 48px;
-}
 .reveiws {
+  text-align: center;
   margin: 15px;
-  margin-bottom: 15px;
+  padding-bottom: 10px;
   color: var(--default-text-color);
   background-color: #baa1cf;
   border-radius: 10px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
     0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.speech-bubble {
+  max-width: 70%;
+  background-color: var(--secondary-background-color);
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
 }
 
 .by-link {
