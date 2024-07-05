@@ -1,7 +1,7 @@
 :root {
   --default-text-color: black;
   --default-background-color: white;
-  --secondary-background-color: rgb(252, 190, 73);
+  --secondary-background-color: #fcbe49;
   --heading-font: Rammetto One, sans-serif;
   --paragraph-font: "Gabriela", serif;
 }
@@ -82,15 +82,48 @@ main {
 }
 
 .speech-bubble {
-  max-width: 100%;
+  max-width: 70%;
   background-color: var(--secondary-background-color);
   padding: 15px;
   margin: 15px;
   border-radius: 10px;
 }
 
-p .right {
-  align-self: flex-end;
+.box3 {
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+/* speech bubble 13 */
+
+.sb13:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #fcbe49;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #fcbe49;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+/* speech bubble 14 */
+
+.sb14:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #fcbe49;
+  border-top: 15px solid #fcbe49;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
 }
 
 .by-link {
