@@ -6,6 +6,11 @@
   --paragraph-font: "Gabriela", serif;
 }
 
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
 h3 {
   font-family: var(--heading-font);
 }
@@ -22,30 +27,34 @@ h2 {
   font-style: italic;
 }
 
-h2 .name {
-  font-size: 60px;
-  font-weight: bolder;
+.faq-para {
+  margin: 20px;
+}
+main .learn-more-link {
+  color: black;
+  text-decoration: none;
 }
 
-.btn-outline-light {
-  margin-left: 15px;
-}
-
-.learn-more-box {
-  display: inline;
-}
-
-header {
-  background-image: linear-gradient(#91ca62, #2fadc9);
-  color: whitesmoke;
+main .learn-more-box {
   text-align: center;
-  padding: 100px 0;
+}
+
+.faqs {
+  background-image: linear-gradient(#91ca62, #2fadc9);
+  color: black;
   margin: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 10px;
 }
 
 p {
   font-family: var(--paragraph-font);
+}
+
+.para {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
 }
 
 main {
@@ -59,6 +68,12 @@ main {
 }
 
 .sub-heading {
+  color: var(--default-text-color);
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+main .sub-heading {
   color: var(--default-text-color);
   margin-top: 48px;
   margin-bottom: 48px;
@@ -101,7 +116,7 @@ main {
   width: 0px;
   height: 0px;
   position: absolute;
-  border-left: 15px solid #fcbe49;
+  border-left: 15px solid hsl(39, 97%, 64%);
   border-right: 15px solid transparent;
   border-top: 15px solid #fcbe49;
   border-bottom: 15px solid transparent;
@@ -181,10 +196,6 @@ footer {
 
 @media (max-width: 960px) {
   header {
-    background-image: linear-gradient(#91ca62, #2fadc9);
-    padding: 100px 0;
-    margin: 15px;
-    border-radius: 10px;
   }
   main {
     margin: 15px;
