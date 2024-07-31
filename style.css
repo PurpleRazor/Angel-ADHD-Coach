@@ -11,6 +11,11 @@ header img {
   margin: 0 auto;
 }
 
+.angel-profile-pic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 h3 {
   font-family: var(--heading-font);
 }
@@ -55,6 +60,8 @@ p {
 .para {
   font-family: var(--paragraph-font);
   font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 main {
