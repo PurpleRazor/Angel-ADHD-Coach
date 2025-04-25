@@ -12,8 +12,8 @@ header img {
 }
 
 .angel-profile-pic {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-height: 500px;
+  margin-top: 60px;
 }
 
 h3 {
